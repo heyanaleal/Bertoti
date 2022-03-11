@@ -18,5 +18,5 @@
       
 # Cards
 <p align="center">
-      <img src="https://github.com/heyanaleal/bertoti-/blob/6545291b0fe0e0241783ee3c143c96c38cb049c9/cards.jpg" >
+      <img src="https://github.com/heyanaleal/bertoti-/blob/be5b92a608eefc6fcb058df709ef17a5d2db2223/cards.jpg" >
 <p align="center">
