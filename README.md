@@ -27,21 +27,17 @@
    - Visualizar informações de tarefas e atividades
       
 ##Wireframe
-  
-#Tela de Tarefas
-  
+#Tela de Tarefas  
 <p align="center">
       <img src="https://github.com/heyanaleal/bertoti-/blob/60b0eae2dd1abcf6179055a5f0f4cebc91e89954/tela1.JPG" width="100%" height="100%">
 <p align="center">
       
-#Tela do Chat  
-  
+#Tela do Chat    
 <p align="center">
       <img src="https://github.com/heyanaleal/bertoti-/blob/60b0eae2dd1abcf6179055a5f0f4cebc91e89954/tela-2.JPG" width="100%" height="100%">
 <p align="center">
   
- #Tela de Equipes 
-      
+ #Tela de Equipes      
 <p align="center">
       <img src="https://github.com/heyanaleal/bertoti-/blob/60b0eae2dd1abcf6179055a5f0f4cebc91e89954/tela-3.JPG" width="100%" height="100%">
 <p align="center">
