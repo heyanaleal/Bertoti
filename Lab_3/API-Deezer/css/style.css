@@ -1,0 +1,244 @@
+/* Ajuste geral das paginas */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    /* background: url('../images/backgroundNoteMusiqueBody.png'), center / cover no-repeat url('../images/mainWallpaper.jpg'); */
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: #1e1e1e;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: #2d2d2d;
+    color: #cccccc;
+    box-shadow: 0 1px 3px #333333, 0 1px 2px #333333;
+    padding: 20px 5px;
+    background-image: url('../images/backgroundNoteMusiqueNav.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+
+}
+
+nav a {
+    color: #cccccc;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+    transition: all 0.2s ease;
+}
+
+nav a:hover {
+    color: firebrick;
+}
+
+/* pagina home */
+.home {
+    width: 100%;
+    color: #cccccc;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+        0px -5px 35px rgba(255, 255, 255, 0.3);
+    margin-top: 10px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#api-deezer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+
+header {
+    width: 100%;
+    color: #cccccc;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+        0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+
+#api-deezer .container-music {
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.70);
+    border-radius: 5px;
+}
+
+audio {
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border: none;
+    margin: 5px auto;
+    padding: 5px;
+    font-size: 15px;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+input:hover {
+    filter: saturate(200%);
+}
+
+.center-block {
+    margin: 0 auto;
+}
+
+.right-img {
+    float: right;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.album {
+    font-style: italic;
+}
+
+form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+.right-form {
+    grid-row: 1;
+    grid-column: 9 / span 3;
+    font-size: 18px;
+}
+
+/* input digite musica */
+#searchMusicForm input[type='text'] {
+    grid-row: 1;
+    grid-column: 2 / span 6;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    box-sizing: border-box;
+    cursor: text;
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: none;
+    color: #acacac;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* input ordenar por */
+.ordernar {
+    background-color: white;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    color: #acacac;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+/* btn buscar */
+.buscar {
+    border-radius: 10px;
+    height: 30px;
+    width: 40px;
+    margin-left: 25px;
+    transition-duration: 0.4s;
+    background-color: #2d2d2d;
+    border: none;
+    color: #cccccc;
+
+   
+
+}
+
+.buscar:hover {
+  background-color: firebrick; 
+  color: #cccccc;
+}
+
+.imagem{
+padding-top: 35px;
+margin-top: 50px;
+margin-left: 240px;
+
+}
+  
+
+
+#searchMusicForm select {
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.favorite {
+    background-color: firebrick !important;
+    color: #cccccc;
+}
+
+#randomButton {
+    background-color: #2d2d2d;
+    color: #cccccc;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.div-error,
+.div-warning {
+    color: white;
+    width: 60%;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.div-error {
+    background-color: crimson;
+    border-radius: 5px;
+}
+
+.div-warning {
+    background-color: #cccccc;
+    margin-right:280px ;
+}
+
+.div-error h1 {
+    text-align: center;
+}
+
+.div-error h1::after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 1px;
+    margin: 0 auto;
+    box-shadow: 0 0 3px #cccccc inset, 0 0 2px #cccccc inset;
+}
