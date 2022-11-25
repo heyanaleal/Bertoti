@@ -20,7 +20,7 @@ nav {
     background-position: center right;
     background-repeat: no-repeat;
     background-size: auto;
-    
+
 
 }
 
@@ -173,22 +173,22 @@ form {
     border: none;
     color: #cccccc;
 
-   
+
 
 }
 
 .buscar:hover {
-  background-color: firebrick; 
-  color: #cccccc;
+    background-color: firebrick;
+    color: #cccccc;
 }
 
-.imagem{
-padding-top: 35px;
-margin-top: 50px;
-margin-left: 240px;
+.imagem {
+    padding-top: 35px;
+    margin-top: 50px;
+    margin-left: 240px;
 
 }
-  
+
 
 
 #searchMusicForm select {
@@ -201,6 +201,7 @@ margin-left: 240px;
 .favorite {
     background-color: firebrick !important;
     color: #cccccc;
+
 }
 
 #randomButton {
@@ -226,8 +227,8 @@ margin-left: 240px;
 }
 
 .div-warning {
-    background-color: #cccccc;
-    margin-right:280px ;
+    background-color: #2d2d2d;
+    margin-right: 280px;
 }
 
 .div-error h1 {
@@ -241,4 +242,8 @@ margin-left: 240px;
     height: 1px;
     margin: 0 auto;
     box-shadow: 0 0 3px #cccccc inset, 0 0 2px #cccccc inset;
+}
+
+.noFavoritesMusics {
+    color: #cccccc;
 }
