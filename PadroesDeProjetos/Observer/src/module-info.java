@@ -5,5 +5,6 @@
  * @author heyan
  *
  */
-module atividades {
+module Observer {
+	requires java.xml;
 }
