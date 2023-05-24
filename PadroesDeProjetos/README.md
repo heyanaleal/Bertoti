@@ -1,11 +1,38 @@
+<h2>Padrões de Projetos</h2>
 
-
-# Diagrama UML
-<p align="center">
-      <img src="https://raw.githubusercontent.com/heyanaleal/Bertoti/main/PadroesDeProjetos/Factory/diagramaPadroesdeProjetos.drawio.drawio.png" width="40%" height="50%">
-<p align="center">
-
-# Observer
-<p align="center">
-      <img src="https://github.com/heyanaleal/Bertoti/blob/main/PadroesDeProjetos/patternsObserver/uml.png" width="40%" height="50%">
-<p align="center">
+<table>
+  <thead>
+    <tr>
+      <th>Padrão</th>
+      <th>Antipadrão</th>
+      <th>Descrição</th>
+      <th>Problema Resolvido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Strategy</td>
+      <td>Herança</td>
+      <td>Define uma família de algoritmos, encapsula cada um deles e os torna intercambiáveis. Permite que o algoritmo varie independentemente dos clientes que o utilizam.</td>
+      <td>Permite escolher um algoritmo em tempo de execução, evitando a necessidade de múltiplos condicionais para lidar com diferentes comportamentos.</td>
+    </tr>
+    <tr>
+      <td>Observer</td>
+      <td>-</td>
+      <td>Define uma dependência um-para-muitos entre objetos, de forma que quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente.</td>
+      <td>Permite o desacoplamento entre o sujeito observado e os observadores, permitindo que diferentes objetos sejam notificados de mudanças de estado sem que precisem conhecer uns aos outros.</td>
+    </tr>
+    <tr>
+      <td>Singleton</td>
+      <td>-</td>
+      <td>Garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso para ela.</td>
+      <td>Resolve o problema de garantir que uma classe tenha apenas uma instância, útil quando é necessário compartilhar uma única instância em todo o sistema.</td>
+    </tr>
+    <tr>
+      <td>Composite</td>
+      <td>-</td>
+      <td>Permite que objetos sejam agrupados em estruturas de árvore para representar hierarquias parte-todo. Os clientes podem tratar objetos individuais e composições de forma uniforme.</td>
+      <td>Resolve o problema de tratar objetos individuais e coleções de objetos de maneira uniforme, permitindo que os clientes sejam indiferentes à diferença entre objetos individuais e composições.</td>
+    </tr>
+  </tbody>
+</table>
