@@ -92,6 +92,9 @@ Também aprendi a criar novas funcionalidades personalizadas para meu aplicativo
       <img src="https://github.com/heyanaleal/Bertoti/blob/8acb8750632308c3bf4b884519c8a5bf0e1cfc5a/MetodologiaDePesquisa/img/figma.png" width="80%" height="80%">
 <p align="center">
 <p align="justify"><b>Scrum - Product Owner:</b> como Product Owner em um projeto Scrum, aprendi que minha função era representar as necessidades do cliente ou stakeholders na equipe de desenvolvimento. Isso envolvia gerenciar o backlog do produto, definir as histórias de usuários, priorizar os itens do backlog, participar das cerimônias do Scrum e tomar decisões de produto. Entendi que meu papel era fundamental para garantir que o produto atendesse às expectativas dos clientes, e trabalhava em estreita colaboração com a equipe de desenvolvimento para alcançar esse objetivo. Aprendi que a comunicação clara e eficaz era essencial para o sucesso do projeto, e que era preciso estar sempre atento às necessidades do cliente.</p>
+  <p align="center">
+      <img src="https://github.com/heyanaleal/Bertoti/blob/1b1fe552a3b15ad4e5833b1ec01feff0b82fe986/MetodologiaDePesquisa/img/BACKLOG.jpg" width="80%" height="80%">
+<p align="center">
 </details>
 <h3>Soft Skills  </h3>
 <details>
