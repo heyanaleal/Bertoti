@@ -83,7 +83,14 @@ Por meio de um software web, os usuários puderam filtrar os dados por diversos 
 <p align="justify"><b>Spring Boot::</b> Durante o projeto ultilizando o Spring Boot, aprendi a conectar minha aplicação ao banco de dados usando o mapeamento de tabelas. Isso me permitiu facilmente realizar operações de leitura, escrita, atualização e exclusão de dados no banco.
 Também aprendi a criar novas funcionalidades personalizadas para meu aplicativo usando bibliotecas e ferramentas disponíveis no ecossistema do Spring. Isso me permitiu estender a funcionalidade do meu projeto e atender às necessidades específicas do meu aplicativo.</p>
 <p align="justify"><b>Front-end:</b> no desenvolvimento do front-end, aprendi a usar HTML, CSS e JavaScript para criar páginas web com boa aparência e interatividade. Utilizei o HTML para organizar o conteúdo, o CSS para estilizar a aparência e o JavaScript para adicionar funcionalidades. Também aprendi a usar a biblioteca Chart.js para criar gráficos dinâmicos, como gráficos de barras e de linha. Aprendi a personalizar os gráficos com cores, fontes e layouts e adicionar animações e interatividade para torná-los mais atraentes e intuitivos.</p>
+<p align="center">
+      <img src="https://github.com/heyanaleal/Bertoti/blob/8acb8750632308c3bf4b884519c8a5bf0e1cfc5a/MetodologiaDePesquisa/img/iacit.gif" width="80%" height="80%">
+<p align="center">
+<p align="center">
 <p align="justify"><b>Figma e UX/UI design:</b> pude aprender durante o processo de criação do projeto, sobre como criar esboços de layout e fluxos de interação de produtos usando a ferramenta Figma para projetar interfaces de usuário. Entendi que é importante criar um esboço para visualizar como será a experiência do usuário e validar a ideia antes de começar a criar o design final. Também aprendi que é essencial criar um design que combine com a identidade visual da marca e utilizar elementos visuais e interativos para ajudar o usuário a navegar com facilidade.</p>
+ <p align="center">
+      <img src="https://github.com/heyanaleal/Bertoti/blob/8acb8750632308c3bf4b884519c8a5bf0e1cfc5a/MetodologiaDePesquisa/img/figma.png" width="80%" height="80%">
+<p align="center">
 <p align="justify"><b>Scrum - Product Owner:</b> como Product Owner em um projeto Scrum, aprendi que minha função era representar as necessidades do cliente ou stakeholders na equipe de desenvolvimento. Isso envolvia gerenciar o backlog do produto, definir as histórias de usuários, priorizar os itens do backlog, participar das cerimônias do Scrum e tomar decisões de produto. Entendi que meu papel era fundamental para garantir que o produto atendesse às expectativas dos clientes, e trabalhava em estreita colaboração com a equipe de desenvolvimento para alcançar esse objetivo. Aprendi que a comunicação clara e eficaz era essencial para o sucesso do projeto, e que era preciso estar sempre atento às necessidades do cliente.</p>
 </details>
 <h3>Soft Skills  </h3>
