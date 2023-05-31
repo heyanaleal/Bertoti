@@ -64,14 +64,73 @@ Por meio de um software web, os usuários puderam filtrar os dados por diversos 
 <details>
 <summary align="justify"><b>No desenvolvimento do front-end do projeto, fui responsável por criar uma interface gráfica atrativa e funcional:</b></summary>
 <p align="justify">Meu trabalho envolveu a criação de layouts e elementos gráficos intuitivos e fáceis de usar para diferentes tipos de usuários. Minha principal prioridade era garantir a acessibilidade e a usabilidade do produto, utilizando as melhores práticas de design de interface. Realizei testes de usabilidade e acessibilidade em diferentes dispositivos e navegadores e trabalhei em estreita colaboração com a equipe de desenvolvimento e o designer para garantir que o produto final atendesse aos padrões de qualidade exigidos.<p>
+ <p align="center">
+      <img src="https://github.com/heyanaleal/Bertoti/blob/8acb8750632308c3bf4b884519c8a5bf0e1cfc5a/MetodologiaDePesquisa/img/iacit.gif" width="80%" height="80%">
+<!--    <p align="center">
+      <img src="https://github.com/heyanaleal/Bertoti/blob/8acb8750632308c3bf4b884519c8a5bf0e1cfc5a/MetodologiaDePesquisa/img/figma.png" width="80%" height="80%"> -->
+<p align="center">
+<p align="center">
 </details>
 <details>
 <summary align="justify"><b> Durante a minha colaboração na construção do back-end, pude contribuir significativamente com a implementação de novas funcionalidades na aplicação:</b></summary>
 <p align="justify">Essas melhorias resultaram em uma performance e eficiência notavelmente melhores do sistema. Uma das metas foi tornar a aplicação mais robusta e escalável, o que contribuiu para aumentar a sua estabilidade e confiabilidade. Além disso, fui capaz de fornecer suporte proativo na identificação e correção de possíveis problemas e erros, o que permitiu que a aplicação oferecesse uma experiência ainda melhor para seus usuários.<p>
+<pre><code>
+package com.fluffyiacit.api.modal;
+
+import java.sql.Timestamp;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.UpdateTimestamp;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Entity(name = "logEstacao")
+@Table(name = "logEstacao")
+@Getter
+@Setter
+@ToString
+public class LogEstacaoModal {
+
+	@Column(name = "logCodWmo", length = 4, nullable = false)
+	private String logCodWmo;
+
+	@Column(name = "logEstacaoNome", length = 60, nullable = false, unique = true)
+	public String logEstacaoNome;
+
+	@Column(name = "logEstacaoEstado", length = 2, nullable = false)
+	public String logEstacaoEstado;
+
+	@Column(name = "logEstacaoRegiao", length = 60, nullable = false)
+	private String logEstacaoRegiao;
+
+	@Column(name = "logEstacaoStatus", length = 60, nullable = false)
+	private String logEstacaoStatus;
+
+	@Column(name = "logEstacaoAlterou")
+	private Integer logEstacaoAlterou;
+
+	@Id
+	@Column(name = "logEstacaoDatahoraAlterecao", nullable = false)
+	@UpdateTimestamp
+	private Timestamp logEstacaoDatahoraAlterecao;
+	
+	@Column(name = "logEstacaoOperacao", length = 1, nullable = false)
+	private String logEstacaoOperacao;
+}                
+</code></pre>
 </details>
 <details>
 <summary align="justify"><b>Como Product Owner, uma das minhas principais responsabilidades foi realizar uma análise detalhada dos requisitos do projeto:</b></summary>
 <p align="justify">Essa avaliação permitiu identificar de forma eficiente as necessidades e expectativas do cliente, possibilitando uma estruturação precisa do backlog do produto. Com isso, obtive uma visão clara das metas e objetivos do projeto, permitindo orientar todo o processo de desenvolvimento de forma mais assertiva e eficiente. Ao ter um entendimento profundo das necessidades e expectativas do cliente, pude garantir que o desenvolvimento do produto atendesse adequadamente às necessidades, resultando em um produto final de qualidade e relevante. Essa análise também me permitiu gerenciar as mudanças e ajustes necessários no backlog do produto de maneira eficiente, assegurando a satisfação do cliente.<p>
+   <p align="center">
+      <img src="https://github.com/heyanaleal/Bertoti/blob/1b1fe552a3b15ad4e5833b1ec01feff0b82fe986/MetodologiaDePesquisa/img/BACKLOG.jpg" width="80%" height="80%">
+<p align="center">
 </details>
 <h3>Aprendizagens</h3>
 <p align="justify">Tive a oportunidade de aprender, pela primeira vez, sobre Spring Boot, HTML e CSS. Além disso, pude aprimorar meus conhecimentos em atividades relacionadas a Product Owner, design de experiência do usuário e interface do usuário, e desenvolvimento visual do sistema.</p>
@@ -83,18 +142,8 @@ Por meio de um software web, os usuários puderam filtrar os dados por diversos 
 <p align="justify"><b>Spring Boot::</b> Durante o projeto ultilizando o Spring Boot, aprendi a conectar minha aplicação ao banco de dados usando o mapeamento de tabelas. Isso me permitiu facilmente realizar operações de leitura, escrita, atualização e exclusão de dados no banco.
 Também aprendi a criar novas funcionalidades personalizadas para meu aplicativo usando bibliotecas e ferramentas disponíveis no ecossistema do Spring. Isso me permitiu estender a funcionalidade do meu projeto e atender às necessidades específicas do meu aplicativo.</p>
 <p align="justify"><b>Front-end:</b> no desenvolvimento do front-end, aprendi a usar HTML, CSS e JavaScript para criar páginas web com boa aparência e interatividade. Utilizei o HTML para organizar o conteúdo, o CSS para estilizar a aparência e o JavaScript para adicionar funcionalidades. Também aprendi a usar a biblioteca Chart.js para criar gráficos dinâmicos, como gráficos de barras e de linha. Aprendi a personalizar os gráficos com cores, fontes e layouts e adicionar animações e interatividade para torná-los mais atraentes e intuitivos.</p>
-<p align="center">
-      <img src="https://github.com/heyanaleal/Bertoti/blob/8acb8750632308c3bf4b884519c8a5bf0e1cfc5a/MetodologiaDePesquisa/img/iacit.gif" width="80%" height="80%">
-<p align="center">
-<p align="center">
 <p align="justify"><b>Figma e UX/UI design:</b> pude aprender durante o processo de criação do projeto, sobre como criar esboços de layout e fluxos de interação de produtos usando a ferramenta Figma para projetar interfaces de usuário. Entendi que é importante criar um esboço para visualizar como será a experiência do usuário e validar a ideia antes de começar a criar o design final. Também aprendi que é essencial criar um design que combine com a identidade visual da marca e utilizar elementos visuais e interativos para ajudar o usuário a navegar com facilidade.</p>
- <p align="center">
-      <img src="https://github.com/heyanaleal/Bertoti/blob/8acb8750632308c3bf4b884519c8a5bf0e1cfc5a/MetodologiaDePesquisa/img/figma.png" width="80%" height="80%">
-<p align="center">
 <p align="justify"><b>Scrum - Product Owner:</b> como Product Owner em um projeto Scrum, aprendi que minha função era representar as necessidades do cliente ou stakeholders na equipe de desenvolvimento. Isso envolvia gerenciar o backlog do produto, definir as histórias de usuários, priorizar os itens do backlog, participar das cerimônias do Scrum e tomar decisões de produto. Entendi que meu papel era fundamental para garantir que o produto atendesse às expectativas dos clientes, e trabalhava em estreita colaboração com a equipe de desenvolvimento para alcançar esse objetivo. Aprendi que a comunicação clara e eficaz era essencial para o sucesso do projeto, e que era preciso estar sempre atento às necessidades do cliente.</p>
-  <p align="center">
-      <img src="https://github.com/heyanaleal/Bertoti/blob/1b1fe552a3b15ad4e5833b1ec01feff0b82fe986/MetodologiaDePesquisa/img/BACKLOG.jpg" width="80%" height="80%">
-<p align="center">
 </details>
 <h3>Soft Skills  </h3>
 <details>
