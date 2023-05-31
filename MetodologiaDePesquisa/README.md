@@ -3,7 +3,7 @@
 <hr>
 <div class="semestre3">
 <h3>Dashboard Meteorológico</h3>
-<h4>3º Semestre • 1/2021 • <a href="https://github.com/fluffyfatec/Iacit">Repositório Github</a></h4>
+<h4>3º Semestre • 2/2022 • <a href="https://github.com/fluffyfatec/Iacit">Repositório Github</a></h4>
 <p align="justify">Parceiro Acadêmico: <a href="https://www.iacit.com.br">IACIT</a></p>
 <p align="center"><img src="https://raw.githubusercontent.com/fluffyfatec/Iacit/Sprint-1/GIT/cabecario%20(3).jpg"></img>
 
