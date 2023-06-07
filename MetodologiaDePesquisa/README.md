@@ -66,6 +66,9 @@ Por meio de um software web, os usuários puderam filtrar os dados por diversos 
 <p align="justify">Meu trabalho envolveu a criação de layouts e elementos gráficos intuitivos e fáceis de usar para diferentes tipos de usuários. Minha principal prioridade era garantir a acessibilidade e a usabilidade do produto, utilizando as melhores práticas de design de interface. Realizei testes de usabilidade e acessibilidade em diferentes dispositivos e navegadores e trabalhei em estreita colaboração com a equipe de desenvolvimento e o designer para garantir que o produto final atendesse aos padrões de qualidade exigidos.<p>
  <p align="center">
       <img src="https://github.com/heyanaleal/Bertoti/blob/8acb8750632308c3bf4b884519c8a5bf0e1cfc5a/MetodologiaDePesquisa/img/iacit.gif" width="80%" height="80%">
+<ul>
+<li>Aprender a plotar gráficos com a biblioteca Chart.js foi uma experiência enriquecedora. O processo de aprendizado foi construtivo, permitindo explorar a 	funcionalidade da biblioteca e descobrir novas formas de visualizar dados de maneira clara e impactante. Durante o processo, pude experimentar diferentes    tipos de gráficos, personalizar sua aparência e interagir com eles de maneira dinâmica.</li>
+</ul>
 <!--    <p align="center">
       <img src="https://github.com/heyanaleal/Bertoti/blob/8acb8750632308c3bf4b884519c8a5bf0e1cfc5a/MetodologiaDePesquisa/img/figma.png" width="80%" height="80%"> -->
 <p align="center">
@@ -75,55 +78,91 @@ Por meio de um software web, os usuários puderam filtrar os dados por diversos 
 <summary align="justify"><b> Durante a minha colaboração na construção do back-end, pude contribuir significativamente com a implementação de novas funcionalidades na aplicação:</b></summary>
 <p align="justify">Essas melhorias resultaram em uma performance e eficiência notavelmente melhores do sistema. Uma das metas foi tornar a aplicação mais robusta e escalável, o que contribuiu para aumentar a sua estabilidade e confiabilidade. Além disso, fui capaz de fornecer suporte proativo na identificação e correção de possíveis problemas e erros, o que permitiu que a aplicação oferecesse uma experiência ainda melhor para seus usuários.<p>
 <pre><code>
-package com.fluffyiacit.api.modal;
+	@Entity(name = "logEstacao")
+	@Table(name = "logEstacao")
+	@Getter
+	@Setter
+	@ToString
+	public class LogEstacaoModal {
+</code></pre>
+<ul>
+ <li>Esta linha declara uma classe chamada LogEstacaoModal como uma entidade, que representa uma tabela de banco de dados chamada logEstacao.</li>
+  <li>@Entity indica que esta classe é uma entidade que pode ser persistida em um banco de dados.</li>
+  <li>@Table especifica o nome da tabela de banco de dados associada a esta entidade.</li>
+  <li>@Getter, @Setter e @ToString são anotações do Project Lombok, que geram automaticamente os métodos getter, setter e toString para a classe, respectivamente.</li>
+</ul>
 
-import java.sql.Timestamp;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-import org.hibernate.annotations.UpdateTimestamp;
-
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
-
-@Entity(name = "logEstacao")
-@Table(name = "logEstacao")
-@Getter
-@Setter
-@ToString
-public class LogEstacaoModal {
-
+<pre><code>
 	@Column(name = "logCodWmo", length = 4, nullable = false)
 	private String logCodWmo;
-
+</code></pre>
+	
+<ul>
+ <li>Esta linha define uma coluna chamada logCodWmo na tabela de banco de dados, correspondente ao campo logCodWmo na classe.</li>
+  <li>@Column especifica o nome da coluna na tabela e fornece propriedades adicionais como comprimento e possibilidade de nulo.</li>
+</ul>
+	
+<pre><code>
 	@Column(name = "logEstacaoNome", length = 60, nullable = false, unique = true)
 	public String logEstacaoNome;
+</code></pre>
 
+<ul>
+ <li>Esta linha define uma coluna chamada logEstacaoNome na tabela de banco de dados, correspondente ao campo logEstacaoNome na classe.</li>
+  <li>Ela possui anotações semelhantes às definições de coluna anteriores, especificando o nome da coluna, comprimento, possibilidade de nulo e unicidade</li>
+</ul>
+	
+<pre><code>
 	@Column(name = "logEstacaoEstado", length = 2, nullable = false)
 	public String logEstacaoEstado;
+</code></pre>
 
+<ul>
+ <li>Esta linha define uma coluna chamada logEstacaoEstado na tabela de banco de dados, correspondente ao campo logEstacaoEstado na classe.</li>
+  <li>Ela possui anotações semelhantes às definições de coluna anteriores, especificando o nome da coluna, comprimento e possibilidade de nulo.</li>
+</ul>
+	
+<pre><code>
 	@Column(name = "logEstacaoRegiao", length = 60, nullable = false)
 	private String logEstacaoRegiao;
-
+</code></pre>
+<ul>
+ <li>Esta linha define uma coluna chamada logEstacaoRegiao na tabela de banco de dados, correspondente ao campo logEstacaoRegiao na classe.</li>
+  <li>Ela possui anotações semelhantes às definições de coluna anteriores, especificando o nome da coluna, comprimento e possibilidade de nulo.</li>
+</ul>
+		
+<pre><code>
 	@Column(name = "logEstacaoStatus", length = 60, nullable = false)
 	private String logEstacaoStatus;
-
+</code></pre>
+<ul>
+ <li>Esta linha define uma coluna chamada logEstacaoStatus na tabela de banco de dados, correspondente ao campo logEstacaoStatus na classe.</li>
+  <li>Ela possui anotações semelhantes às definições de coluna anteriores, especificando o nome da coluna, comprimento e possibilidade de nulo.</li>
+</ul>	
+<pre><code>
 	@Column(name = "logEstacaoAlterou")
 	private Integer logEstacaoAlterou;
-
+</code></pre>
+<ul>
+ <li>Esta linha define uma coluna chamada logEstacaoAlterou na tabela de banco de dados, correspondente ao campo logEstacaoAlterou na classe.</li>
+</ul>
+<pre><code>
 	@Id
 	@Column(name = "logEstacaoDatahoraAlterecao", nullable = false)
 	@UpdateTimestamp
 	private Timestamp logEstacaoDatahoraAlterecao;
-	
+</code></pre>
+<ul>
+ <li>Essa linha corresponde a coluna chamada logEstacaoDatahoraAlterecao que é um Timestamp não nulo e é atualizado automaticamente quando a entidade é alterada.</li>
+</ul>
+<pre><code>
 	@Column(name = "logEstacaoOperacao", length = 1, nullable = false)
 	private String logEstacaoOperacao;
 }                
 </code></pre>
+<ul>
+ <li>Define a Operação realizada na estação meteorológica no banco de dados.</li>
+</ul>
 </details>
 <details>
 <summary align="justify"><b>Como Product Owner, uma das minhas principais responsabilidades foi realizar uma análise detalhada dos requisitos do projeto:</b></summary>
@@ -131,6 +170,9 @@ public class LogEstacaoModal {
    <p align="center">
       <img src="https://github.com/heyanaleal/Bertoti/blob/1b1fe552a3b15ad4e5833b1ec01feff0b82fe986/MetodologiaDePesquisa/img/BACKLOG.jpg" width="80%" height="80%">
 <p align="center">
+<ul>
+ <li>Durante o projeto  foi realizado todo o processo com o desenvolvimento ágil. O  que envolveu a criação do backlog, o planejamento das sprints, o acompanhamento diário do progresso, a colaboração da equipe e a revisão contínua com os stakeholders. O uso desse processo ágil permitiu flexibilidade, entrega contínua de valor e engajamento dos stakeholders. Foi uma experiência enriquecedora que resultou em sucesso na conclusão de todos os itens do backlog.</li>
+</ul>	
 </details>
 <h3>Aprendizagens</h3>
 <p align="justify">Tive a oportunidade de aprender, pela primeira vez, sobre Spring Boot, HTML e CSS. Além disso, pude aprimorar meus conhecimentos em atividades relacionadas a Product Owner, design de experiência do usuário e interface do usuário, e desenvolvimento visual do sistema.</p>
